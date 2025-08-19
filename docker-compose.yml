@@ -2,7 +2,7 @@ version: "1.0"
 
 services:
   mongo:
-    images: mongo
+    image: mongo
     ports:
     - "27017:27017"
     volumes:
